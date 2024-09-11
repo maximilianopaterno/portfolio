@@ -1,0 +1,147 @@
+.sobremi {
+    background-color: #1E2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+/* Contenedor de la seccion */
+.sobremi .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Titulo Sobre mi */
+.sobremi h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Contenido de Sobre Mi */
+.sobremi .contenido-seccion p {
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Frase Hola, soy Maximiliano */
+.sobremi .contenido-seccion p span {
+    color: #1CB698;
+    font-weight: bold;
+}
+
+/* Fila que agrupa Datos Personales e Intereses */
+.sobremi .fila {
+    display: flex;
+}
+
+/* Columna tanto Datos personales como Intereses */
+.sobremi .fila .col {
+    width: 50%;
+}
+
+/* Titulos Datos Personales e Intereses */
+.sobremi .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+/* Ocultar puntos de la lista */
+.sobremi .fila .col ul {
+    list-style: none;
+}
+
+/* Customizar cada opcion de la lista de Datos Personales */
+.sobremi .fila .col ul li {
+    margin: 12px 0;
+}
+
+/* Formato a las opciones Cumpleaños, Telefono, Email y Direccion */
+.sobremi .fila .col ul li strong {
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+
+/* Customizar la palabra Freelance */
+.sobremi .fila .col ul li span {
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Customizar cada opcion de la lista de intereses */
+.sobremi .fila .col .contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Customizar cada opcion de la lista de intereses */
+.sobremi .fila .col .contenedor-intereses .interes {
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes:hover {
+    background-color: #1CB698;
+}
+
+/* Agrandar imagen de cada interes */
+.sobremi .fila .col .contenedor-intereses .interes i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Customizar boton Descargar CV */
+.sobremi button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+} 
+
+/* Efecto cuando pasamos sobre el boton */
+.sobremi button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+} 
+
+.sobremi button:hover .overlay {
+    width: 100%;
+}
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width:700px) {
+    .sobremi .fila {
+        display: block;
+    }
+
+    .sobremi .fila .col {
+        width: fit-content;
+    }
+}

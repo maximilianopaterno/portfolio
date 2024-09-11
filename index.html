@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio | </> Maxi Paternó</title>
+     <!-- Favicon -->
+    <link rel="shortcut icon" href="./imagenes/code-solid.svg" sizes="16x16">
+     <!-- CSS -->
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/sobremi.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/curriculum.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <!-- Menu encabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"> <i class="fa-solid fa-code"></i> Maximiliano </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Seccion INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/logo.jpg" alt="fotoperfil">
+            </div>
+            <h1>Maxi Paternó</h1>
+            <h2>Soporte IT - Desarrollador Front End</h2>
+            <div class="redes">
+                <a href="https://linkedin.com/in/maximiliano-fernando-oscar-paterno" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/3794017307" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/maximilianopaterno" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:maximilianopaterno83@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Seccion SOBRE MI -->
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p>
+                <span>Hola, mi nombre es Maximiliano</span> soy un profesional proactivo, con una trayectoria de más
+                de 5 años en soporte técnico. Mi naturaleza curiosa me impulsa a adquirir nuevos conocimientos constantemente.
+                Me destaco por mi capacidad de trabajo en equipo, enfocándome en la búsqueda de soluciones innovadoras
+                y valorando el aporte de ideas frescas para superar desafíos. Mi adaptabilidad me permite integrarme
+                eficazmente en distintos entornos laborales, y mi compromiso es siempre contribuir al crecimiento y éxito
+                de la organización a la que me integro. <br>
+                Ademas soy un desarrollador front-end apasionado por crear experiencias web atractivas y funcionales. Tengo experiencia 
+                en HTML, CSS y JavaScript, y utilizo frameworks como Bootstrap, React y Laravel para construir interfaces de usuario dinámicas
+                y receptivas. Me dedico a escribir código limpio y mantener una atención meticulosa a los detalles para garantizar 
+                la mejor experiencia de usuario posible.
+            </p>
+            <div class="fila">
+                <!-- Datos Personales -->
+                 <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños: </strong>
+                            13-02-1985
+                        </li>
+                        <li>
+                            <strong>Telefono: </strong>
+                            +54 0379-154017307
+                        </li>
+                        <li>
+                            <strong>Email: </strong>
+                            maximilianopaterno83@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección: </strong>
+                            Dr. Ramón Carrillo 572 Corrientes, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo: </strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                 </div>
+
+                 <!-- Intereses -->
+                 <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Futbol</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Videojuegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pizza-slice"></i>
+                            <span>Pizza</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-ice-cream"></i>
+                            <span>Helado</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Autos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pencil"></i>
+                            <span>Dibujar</span>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <button id="abrir-pdf">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+     </section>
+
+    <!-- Seccion SKILLS -->
+     <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Skills Técnicos -->
+                 <div class="col">
+                    <h3>Skills Técnicos</h3>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-js"></i> Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-html5"></i> HTML & <i class="fa-brands fa-css3-alt"></i>  CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> <i class="fa-brands fa-php"></i> PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><i class="fa-brands fa-git"></i>  GIT & <i class="fa-brands fa-github"></i> GITHUB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> <i class="fa-brands fa-laravel"></i> LARAVEL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> <i class="fa-brands fa-react"></i> REACT JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> <i class="fa-solid fa-database"> </i> MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> <i class="fa-solid fa-code"> </i> Optimización para motores SEO</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+                <!-- Skills Profesionales --> 
+                 <div class="col">
+                    <h3>Skills Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Empatia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad resolutiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pensamiento critico</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Actitud positiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión de tiempo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Seccion CURRICULUM -->
+     <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izquierda">
+                        <h4>Programa Talentos Digitales - Full Stack</h4>
+                        <span class="casa">TelCo Corrientes - POLO IT - Universidad Nacional del Nordeste</span>
+                        <span class="fecha">2023-2024</span>
+                        <p>
+                            Aqui he aprendido y desarrollado en la parte Front end con HTML, CSS, JS, Bootstrap y Vue Js, en lo que 
+                            es Backend PHP, LARAVEL y como motor de Base de datos MySQL.<br>
+                            Implemente el versionado en GIT y como metodología ágil utilice TRELLO.
+                        </p><br>
+                        <div class="certificados">
+                            <button class="botonCertificado">
+                                <a href="javascript:void(0)" onclick="abrir('ventana')">CERTIFICADO</a>
+                                <span class="overlay"></span>
+                             </button>   
+                            <!-- Certificado de Desarrollador Full Stack Talentos Digitales -->
+                            <div id="ventana" class="ventana">
+                                <span class="cerrarTalentos" onclick="cerrar('ventana')">&times;</span>
+                                <img src="./imagenes/certificados/certificadotalentos.jpg" alt="Certificado">
+                            </div>
+                        </div>
+                        <div id="overlayCertificado" class="overlayCertificado"></div>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izquierda">
+                        <h4>Desarrollador Front End React Js</h4>
+                        <span class="casa">CoderHouse</span>
+                        <span class="fecha">2023</span>
+                        <p>
+                            En este curso aprendí a crear mi sitio web partiendo del prototipo en papel. Trabajé con HTML y CSS. 
+                            Conocí herramientas para optimizar al máximo mi sitio web, implementando prácticas de versionado de 
+                            código con GIT, y preprocesadores como SASS. Pude aplicar Bootstrap a mis proyectos, y comprendrí lo 
+                            importante del SEO en mi desarrollo.<br>
+                            Por último, aprendí y desarrolle con la biblioteca React Js.
+                        </p><br>
+                        <div class="certificados">
+                            <!-- Certificado de Desarrollador Front End React Js -->
+                            <button class="botonCertificado">
+                                <a href="javascript:void(0)" onclick="abrir('ventana1')" >FRONT END</a>
+                                <span class="overlay"></span>
+                             </button>   
+                            <div id="ventana1" class="ventana">
+                                <span class="cerrar" onclick="cerrar('ventana1')" >&times;</span>
+                                <img src="./imagenes/certificados/Certificado FrontEnd.jpeg" alt="Certificado">
+                            </div>
+                            <!-- Certificado de Javascript -->
+                            <button class="botonCertificado">
+                                <a href="javascript:void(0)" onclick="abrir('ventana2')" >JAVASCRIPT</a>
+                                <span class="overlay"></span>
+                             </button>   
+                            <div id="ventana2" class="ventana">
+                                <span class="cerrar" onclick="cerrar('ventana2')" >&times;</span>
+                                <img src="./imagenes/certificados/Certificado JS.png" alt="Certificado">
+                            </div>
+                            <!-- Certificado de Desarrollador web -->
+                            <button class="botonCertificado">
+                                <a href="javascript:void(0)" onclick="abrir('ventana3')" >DESARROLLO</a>
+                                <span class="overlay"></span>
+                             </button>   
+                            <div id="ventana3" class="ventana">
+                                <span class="cerrar" onclick="cerrar('ventana3')" >&times;</span>
+                                <img src="./imagenes/certificados/Certificado DW.png" alt="Certificado">
+                            </div>
+                        </div>
+                        <div id="overlayCertificado" class="overlayCertificado"></div>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izquierda">
+                        <h4>Reparador de Pc y Redes informáticas</h4>
+                        <span class="casa">Extensión Universidad Nacional del Nordeste</span>
+                        <span class="fecha">2018</span>
+                        <p>
+                            Aprendí conocimientos técnicos y prácticos en la reparación, mantenimiento y optimización de 
+                            computadoras personales y en la configuración y gestión de redes informáticas. Me capacite para 
+                            diagnosticar y solucionar problemas de hardware y software en PCs, instalar y configurar sistemas 
+                            operativos, gestionar redes LAN y Wi-Fi, y asegurar la conectividad y seguridad de redes informáticas.                       
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izquierda">
+                        <h4>Redes y Servidores</h4>
+                        <span class="casa">CECAL - Centro de Capacitación laboral</span>
+                        <span class="fecha">2017</span>
+                        <p>
+                            Me capacite para diseñar, implementar y mantener infraestructuras de red, gestionar servidores 
+                            tanto físicos como virtuales, y asegurar la seguridad y disponibilidad de los servicios de red. Además, 
+                            aprendí a configurar y gestionar servidores de correo, web, y bases de datos, así como a implementar 
+                            políticas de backup y recuperación de datos.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item derecha">
+                        <h4>Data Entry (Administrativo de facturación y atención al cliente)</h4>
+                        <span class="casa">Logistica SEDE</span>
+                        <span class="fecha">07/2023 - presente</span>
+                        <p>
+                            <ul>
+                                <li><p style="font-weight: bold"> Ingreso de Datos en Sistemas de Gestión: </p>
+                                    Precisión y eficiencia en el ingreso de datos en los sistemas de gestión empresarial.
+                                </li>
+                                <li><p style="font-weight: bold">  Mantenimiento y Actualización de Bases de Datos: </p>
+                                    Verificación, corrección y actualización de datos para asegurar su exactitud y relevancia.
+                                </li>
+                                <li><p style="font-weight: bold"> Colaboración en Mejora de Procesos Internos y Atención al Cliente:</p>
+                                    Trabajo en equipo para optimizar procesos internos, manejo de correos electrónicos para notificaciones y atención al cliente.
+                                </li>
+                                <li><p style="font-weight: bold"> Confección de Guías de Seguimiento para Envíos y Recepciones: </p>
+                                    Elaboración de guías de seguimiento detalladas para la gestión de envíos y recepciones de paquetes de clientes.
+                                </li>
+                                <li><p style="font-weight: bold"> Capacitación en Software de Entrada de Datos: </p>
+                                    Formación y capacitación de nuevos empleados en el uso eficiente de software de entrada de datos.
+                                </li>
+                                <li><p style="font-weight: bold"> Gestión de Cobros, Arqueo de Caja y Rendición de Fletes: </p>
+                                    Realización de cobros, arqueo de caja y confección de planillas de rendición de fletes realizados por transportistas.
+                                </li>
+                            </ul>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item derecha">
+                        <h4>Soporte Técnico IT (Nivel I y II)</h4>
+                        <span class="casa">Droguería Del Sud SA</span>
+                        <span class="fecha">2017 - 2023</span>
+                        <p>
+                            <ul>
+                                <li><p style="font-weight: bold"> Soporte Técnico en Software (SAP ERP, Microsoft Office, Windows, iOS): </p>
+                                    Experiencia en la provisión de soporte técnico para aplicaciones de software, incluyendo SAP ERP, la suite de Microsoft Office, sistemas operativos Windows e iOS.
+                                </li>
+                                <li><p style="font-weight: bold"> Resolución de Incidencias en Redes (TCP/IP, VPN, F5, FortiClient, Conexiones Remotas, Configuración de WIFI): </p>
+                                    Experiencia en la solución de problemas relacionados con TCP/IP, VPN, F5, FortiClient, conexiones remotas y configuración de redes inalámbricas (WIFI).
+                                </li>
+                                <li><p style="font-weight: bold"> Soporte Técnico para Dispositivos Móviles (Android, Apple): </p>
+                                    Experiencia en la asistencia técnica y resolución de problemas para dispositivos móviles con sistemas operativos Android y Apple.
+                                </li>
+                                <li><p style="font-weight: bold"> Administración de Active Directory (AD) y Gestión de Servidores: </p>
+                                    Administración eficiente de Active Directory, incluyendo la asignación de permisos, gestión de usuarios y administración de servidores.
+                                </li>
+                                <li><p style="font-weight: bold"> Mantenimiento y Configuración de Impresoras: </p>
+                                    Configuración, mantenimiento y solución de problemas en impresoras para garantizar un funcionamiento óptimo.
+                                </li>
+                                <li><p style="font-weight: bold"> Implementación y Configuración de Sistemas de Videovigilancia CCTV: </p>
+                                    Experiencia en la implementación, configuración y mantenimiento de sistemas de videovigilancia CCTV.
+                                </li>
+                                <li><p style="font-weight: bold"> Atención al Cliente de Primer Nivel (Soporte Telefónico y Presencial):  </p>
+                                    Experiencia en la provisión de atención al cliente de primer nivel, tanto a través de soporte telefónico como presencial.
+                                </li>
+                                <li><p style="font-weight: bold"> Reparación y Mantenimiento de PC y Notebooks (Reemplazo de Componentes, Ajustes de Configuración): </p>
+                                    Experiencia en la reparación, mantenimiento y optimización de computadoras de escritorio y portátiles, incluyendo el reemplazo de componentes y ajustes de configuración.
+                                </li>
+                                <li><p style="font-weight: bold"> Gestión de Presupuestos y Optimización de Recursos:  </p>
+                                    Experiencia en el manejo y control de presupuestos, enfocado en la optimización de recursos.
+                                </li>
+                            </ul>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item derecha">
+                        <h4>Repo-preparador - Control de Stock</h4>
+                        <span class="casa">Droguería Del Sud SA</span>
+                        <span class="fecha">2011-2017</span>
+                        <p>
+                            <ul>
+                                <li><p style="font-weight: bold"> Gestión Eficaz de Inventarios en SAP:  </p>
+                                    Utilización de SAP para optimizar la gestión de inventarios, asegurando precisión y eficiencia en todos los procesos.
+                                </li>
+                                <li><p style="font-weight: bold"> Control de Stock Preciso:   </p>
+                                    Implementación de metodologías que garantizan un control de stock exacto, minimizando discrepancias y maximizando la eficiencia operativa.
+                                </li>
+                                <li><p style="font-weight: bold"> Dominio de Office (Excel, Word, Outlook):  </p>
+                                    Experiencia en las herramientas de Office para la creación y manejo de documentos, hojas de cálculo, y correos electrónicos, facilitando la productividad diaria.
+                                </li>
+                                <li><p style="font-weight: bold"> Interconexión Fluida entre Departamentos:   </p>
+                                    Facilitación de la comunicación y colaboración efectiva entre departamentos, promoviendo un flujo de trabajo rápido y sin interrupciones.
+                                </li>
+                                <li><p style="font-weight: bold"> Optimización de la Preparación y Reposición de Stock:   </p>
+                                    Desarrollo e implementación de estrategias para la preparación y reposición de stock, garantizando la disponibilidad continua de productos.
+                                </li>
+                                <li><p style="font-weight: bold"> Registro Detallado de Movimientos de Productos:   </p>
+                                    Mantenimiento de un registro completo y preciso de las altas y bajas de productos, asegurando la integridad de los datos y facilitando auditorías.
+                                </li>
+                                <li><p style="font-weight: bold"> Comunicación Interna Efectiva:   </p>
+                                    Habilidad en la comunicación interna, utilizando herramientas de mensajería para transmitir información de manera clara y oportuna.
+                                </li>
+                            </ul>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section> 
+
+    <!-- Seccion PORTFOLIO -->
+     <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <!-- Proyecto Desarrollo Web Liga Correntina de Futbol -->
+                <div class="proyecto">
+                    <img src="./imagenes/pages/ligacorrentina.jpg" alt="ligacorrentina">
+                    <div class="overlay">
+                        <h3>Liga Correntina de Fútbol</h3>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <a href="https://maximilianopaterno.github.io/Ligacorrentinadefutbol/" target="_blank" rel="noopener noreferrer">Link</a>
+                    </div>
+                </div>
+                <!-- Proyecto Desarrollo Web c/ SASS Toyta Design -->
+                <div class="proyecto">
+                    <img src="./imagenes/pages/toyta.jpg" alt="toyta">
+                    <div class="overlay">
+                        <h3>Toyta Design</h3>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-sass"></i>
+                        </div>
+                        <a href="https://maximilianopaterno.github.io/Toyta/" target="_blank" rel="noopener noreferrer">Link</a>
+                    </div>
+                </div>
+                <!-- Proyecto Javascript Contador de Pasos -->
+                <div class="proyecto">
+                    <img src="./imagenes/pages/pasos.jpg" alt="pasos">
+                    <div class="overlay">
+                        <h3>Pasos Website</h3>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-bootstrap"></i>
+                        </div>
+                        <a href="https://maximilianopaterno.github.io/ContadorPasos/" target="_blank" rel="noopener noreferrer">Link</a>
+                    </div>
+                </div>
+                <!-- Proyecto Talentos Digitales Desarrollo Web  -->
+                <div class="proyecto">
+                    <img src="./imagenes/pages/talentosdigitales.jpg" alt="talentosdigitales">
+                    <div class="overlay">
+                        <h3>Talentos Digitales</h3>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-bootstrap"></i>
+                        </div>
+                        <a href="https://maximilianopaterno.github.io/talentosdigitales/" target="_blank" rel="noopener noreferrer">Link</a>
+                    </div>
+                </div>
+                <!-- Proyecto PHP-LARAVEL-SQL Supermercado Quickmart -->
+                <div class="proyecto">
+                    <img src="./imagenes/pages/quickmart.jpg" alt="quickmat">
+                    <div class="overlay">
+                        <h3>Quickmart</h3>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <i class="fa-brands fa-php"></i>
+                            <i class="fa-brands fa-laravel"></i> 
+                            <i class="fa-solid fa-database"> </i>
+                        </div>
+                        <a href="http://" target="_blank" rel="noopener noreferrer">Link</a>
+                    </div>
+                </div>
+                <!-- Proyecto React JS Acaramelado Todo Dulce -->
+                <div class="proyecto">
+                    <img src="./imagenes/pages/acaramelado.jpg" alt="acaramelado">
+                    <div class="overlay">
+                        <h3>Acaramelado Todo Dulce</h3>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <i class="fa-brands fa-react"></i> 
+                            <i class="fa-solid fa-database"> </i>
+                        </div>
+                        <a href="https://maximilianopaterno.github.io/acaramelados" target="_blank" rel="noopener noreferrer">Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section> 
+
+    <!-- Seccion CONTACTO --> 
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formsubmit.co/maximilianopaterno83@gmail.com" method="POST">
+                        <input type="text" placeholder="Nombre" name="nombre" id="nombre">
+                        <input type="number" placeholder="Telefono" name="telefono" id="telefono">
+                        <input type="email" placeholder="Email" name="email" id="email">
+                        <input type="text" placeholder="Asunto" name="asunto" id="asunto">
+                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button class="btn" type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>   
+                </div>
+                <!-- Mapa -->
+                 <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3539.8005648802077!2d-58.844256761916434!3d-27.475467599999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1722604350412!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Dr Carrillo 572 Piso 1 Departamento 2, Corrientes, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame +54 379-154017307
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: maximilianopaterno83@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </section>
+     
+    <!-- Footer -->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="informacion-footer">
+            <h4>Maximiliano Paterno - SOPORTE IT - DESARROLLADOR FRONT END</h4> <br>
+            <h5> &copy; 2024 Maximiliano Paterno | Diseñado por Mi <i class="fa-solid fa-child-reaching"></i></h5>
+        </div>
+        <div class="redes">
+            <a href="https://linkedin.com/in/maximiliano-fernando-oscar-paterno" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/3794017307" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/maximilianopaterno" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:maximilianopaterno83@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+     </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>

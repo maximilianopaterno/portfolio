@@ -1,0 +1,121 @@
+.contacto {
+    /* background-image: url(/imagenes/fondo-ubicacion.jpg); */
+    background-color: #1E2326;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Customizar seccion ancho maximo */
+.contacto .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Titulo Contacto */
+.contacto h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Customizar fila */
+.contacto .fila {
+    display: flex;
+}
+
+/* Customizar cada columna de la fila */
+.contacto .col {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+} 
+
+/* Formulario */
+/* Customizar los inputs y el textarea */
+.contacto .col input, .contacto .col textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Customizar boton Enviar Mensaje */
+.contacto button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+} 
+
+/* Efecto sobre del boton */
+.contacto button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.contacto button:hover .overlay {
+    width: 100%;
+}
+
+/* Mapa */
+/* Customizar mapa de ubicacion */
+.contacto .col iframe {
+    width: 100%;
+}
+
+/* Ubicar los datos dentro del mapa de ubicacion */
+.contacto .col .info {
+    position: absolute;
+    top: 40%;
+    background-color: #252A2E;
+    padding: 20px;
+    max-width: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Eliminar puntos de la lista */
+.contacto .col .info ul {
+    list-style: none;
+}
+
+/* Determinar margen inferior de cada opcion de la lista */
+.contacto .col .info ul li {
+    margin-bottom: 20px;
+}
+
+/* Customizar de verde cada icono de la lista */
+.contacto .col .info ul li i {
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width:700px) {
+    .contacto .fila {
+        display: block;
+    }
+
+    .contacto .fila .col {
+        width: 100%;
+    }
+}
